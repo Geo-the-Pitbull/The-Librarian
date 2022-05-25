@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Stony Hill Book Club</title>
+    <link rel="stylesheet" href="Main Page.css">
+    <link rel="stylesheet" href="Book.css">
+    <script src="https://kit.fontawesome.com/903f29b322.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allison' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bubbler One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <link rel="stylesheet" href="/public/Main Page.css">
+    <link rel="stylesheet" href="/public/Book.css">
+</head>
+<body>
+
+  <div class="PageNav">
+        <div class="LogoImg">
+        <img src="/Images/8089.png_300-removebg-preview.png" alt="" srcset="" style="width: 65px; height: 65px; float: left; margin-top: 5px;">
+        <h2 style="float: left; margin-top: 20px; font-family: 'Sofia'; color: purple; font-size: 30px;">&ensp;The Orients Book Club</h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </div>
+        <header>
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+            <nav>
+              <ul class="nav_links" style="font-family: 'Arial';">
+                  <li><a href="">Home</a></li>&ensp;
+                  <li><a href="">My Account</a></li>&ensp;
+                  <li><a href=""><i class="fas fa-cart-arrow-down fa-1x"></i>My Cart</a></li>&ensp;
+                  <li><a href="">Sign Up/Sign In</a></li>&ensp;
+                  <li><a href="">Log Out</a></li>&ensp;
+              </ul>
+            </nav> 
+        </header> 
+  </div>
+
+  <div class="SecondLayerNav">
+      &emsp;<h2 style="font-family: 'Abel'; color: purple; font-size: 22px;">See Our Book Categories</h2>
+      <div class="Book-Categories">
+        <ul class="nav_links" style="font-family: 'Arial';">
+          <li><a href="">Biographies & Memoirs</a></li> /
+          <li><a href="">Literature & Fiction</a></li> /
+          <li><a href="">Children's</a></li> /
+          <li><a href="">Mystery & Suspence</a></li> /
+          <li><a href="">Education & Reference</a></li> /
+          <li><a href="">Religion & Spirituality</a></li> /
+          <li><a href="">Romance</a></li> /
+          <li><a href="">Science Fiction & Fantasy</a></li> /
+          <li><a href="">History</a></li> /
+          <li><a href="">Teen & Young Adult</a></li> 
+        </ul>
+      </div> 
+  </div>
+  <br><br>
+
+  <!--THE ADVERT 1-->
+  <img src="/Images/Advert 1.png" alt="" srcset="" style="width: 100%;">
+
+  <div class="row">
+    <div class="column" style="background-color:#E4D8DC;">
+      <h2 style="font-family: 'Bellefair'; font-weight: bold; font-size: 30px; text-align: left;">ReadingRewards</h2>
+      <p style="font-family: 'Advent Pro'; text-align: left;">Join now to earn FREE BOOKS</p>
+    </div>
+    <div class="column" style="background-color:#C9CCD5;">
+      <h2 style="font-family: 'Bellefair'; font-weight: bold; font-size: 30px;">'The Orients' Deals</h2>
+      <p style="font-family: 'Advent Pro';">Now save up to 20% off any eligible books</p>
+    </div>
+    <div class="column" style="background-color:#E4D8DC;">
+      <h2 style="font-family: 'Bellefair'; font-weight: bold; font-size: 30px; text-align: right;">Mobile app</h2>
+      <p style="font-family: 'Advent Pro'; text-align: right;">Shop faster and earn bonus points</p>
+    </div>
+  </div>
+  <br>
+
+  <!--BEST BOOKs-->
+  <h2 style="text-align: left; font-family: 'Abel'; color: green; font-size: 34px;">Best Sellers</h2> 
+  <h4 style="text-align: left; font-family: 'Arial'; font-weight: lighter;">This Year's Top Sellers</h4><br>
+  <button class="button-33" role="button">See More</button>
+  <p style="text-align: center; font-family: 'Arial'; font-weight: lighter;">Click on a Book to see it's info. The info will be displayed below the books.</p>
+  <div class="row">
+    <div class="column-books" onclick="openTab('b1');">
+      <img src="https://m.media-amazon.com/images/I/318nujF5v5L._SL350_.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b2');">
+      <img src="https://img.thriftbooks.com/api/images/m/97a273c4ccf6a1026ac07fc959f982b642de43db.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b3');">
+      <img src="https://img.thriftbooks.com/api/images/m/b3b211c8f8ddde7da88da09bfb5d53c512251338.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b4');">
+      <img src="https://m.media-amazon.com/images/I/51aOzZdQcNL._SL350_.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b5');">
+      <img src="https://m.media-amazon.com/images/I/51RP06FIK5L._SL350_.jpg" alt="" srcset="">
+    </div>
+  </div>
+  
+  <div id="b1" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Twilight (The Twilight Saga, Book 1)</h2>
+    <p>(Book #1 in the The Twilight Saga Series) by Stephenie Meyer ⭐⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.99 - $5.79&ensp;<b>Paperback:</b> $3.59 - $21.99</p><br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+  
+  <div id="b2" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Holes</h2>
+    <p>(Book #1 in the Holes Series) by Louis Sachar ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.09 - 4.89&ensp;<b>Paperback:</b> $3.99 - 4.69</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button> 
+  </div>
+  
+  <div id="b3" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Diary of a Wimpy Kid. Rodrick Rules</h2>
+    <p>(Book #2 in the Diary of a Wimpy Kid Series) by Jeff Kinney ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.69 - 13.79&ensp;<b>Paperback:</b> $3.59 - 4.79</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+
+  <div id="b4" class="containerTab" style="display:none;background: lightgreen">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Little House on the Prairie (Little House, No 3)</h2>
+    <p>(Part of the Little House (#3) Series and Unsere kleine Farm (#2) Series) by Laura Ingalls Wilder ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.59 - 5.39&ensp;<b>Paperback:</b> $3.59 - 4.79</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+
+  <div id="b5" class="containerTab" style="display:none;background:lightgreen">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Sun Tzu on the Art of War</h2>
+    <p>(Book #22 in the Penguin Great Ideas Series Series) by Sun Tzu, Onésimo Colavidas, 6th Cent B C Sun-Tzu, et al. ⭐⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.49 - 54.39&ensp;<b>Paperback:</b> $4.69 - 23.79</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+  
+
+  <!--NEW & TRENDING-->
+  <h2 style="text-align: left; font-family: 'Abel'; color: green; font-size: 34px;">New & Trending</h2><br>
+  <button class="button-33" role="button">See More</button>
+  <p style="text-align: center; font-family: 'Arial'; font-weight: lighter;">Click on a Book to see it's info. The info will be displayed below the books.</p>
+  <div class="row">
+    <div class="column-books" onclick="openTab('b6');">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SL350_.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b7');">
+      <img src="https://img.thriftbooks.com/api/images/i/m/2A79D9E3E53FC4504228DE826914F1D2B51B6E05.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b8');">
+      <img src="https://img.thriftbooks.com/api/images/i/m/4CA36D140CCF78FC35548A53E17C1B1F1F83CC6D.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b9');">
+      <img src="https://img.thriftbooks.com/api/images/i/m/FA62A635C2373D3F1E47FEB3E6EF75CA8FCD43C3.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b10');">
+      <img src="https://img.thriftbooks.com/api/images/i/m/A84830F2B21D9691EAF0B398295A810AA5817A9F.jpg" alt="" srcset="">
+    </div>
+  </div>
+  
+  <div id="b6" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Harry Potter and the Chamber of Secrets</h2>
+    <p>(Book #2 in the Harry Potter Series) by J.K. Rowling ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $5.39 - $19.30&ensp;<b>Paperback:</b> $4.19 - $10.63</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+  
+  <div id="b7" class="containerTab" style="display:none; background: lightgreen; height: 220px;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>In Trump Time: A Journal of America's Plague Year</h2>
+    <p>by Peter Navarro ⭐⭐⭐⭐⭐</p> <br>
+    <p style="font-size: 12px;">A must-read riveting account of America's plague year from one of the top Trump advisors who first sounded the China pandemic alarm, exposed Dr. Fauci's destructive actions and laid bare the facts about the 2020 presidential election. In Trump Time, A Journal of America's Plague Year, tells the story of a president who worked night and day for the American People, who built the strongest economy in modern histroy and who would deliver a life-saving...<a href="" style="color: red; font-style: italic;">Read Full Summary</a></p><br>
+    <p><b>Hardcover:</b> $24.40</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+  
+  <div id="b8" class="containerTab" style="display:none; background: lightgreen; height: 220px;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>The Love Hypothesis</h2>
+    <p>by Ali Hazelwood ⭐⭐⭐⭐</p> <br>
+    <p style="font-size: 12px;">When a fake relationship between scientists meets the irresistible force of attraction, it throws one woman's carefully calculated theories on love into chaos. As a third-year Ph.D. candidate, Olive Smith doesn't believe in lasting romantic relationships--but her best friend does, and that's what got her into this situation. Convincing Anh that Olive is dating and well on her way to a happily ever after was always going to take more than hand-wavy...<a href="" style="color: red; font-style: italic;">Read Full Summary</a></p><br>
+    <p><b>Hardcover:</b>$14.67</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+
+  <div id="b9" class="containerTab" style="display:none; background: lightgreen; height: 220px;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Big Shot (Diary of a Wimpy Kid Book 16)</h2>
+    <p>(Book #16 in the Diary of a Wimpy Kid Series) by Jeff Kinney ⭐⭐⭐⭐</p> <br>
+    <p style="font-size: 12px;">After a disastrous field day competition at school, Greg decides that when it comes to his athletic career, he's officially retired. But after his mom urges him to give sports one more chance, he reluctantly agrees to sign up for basketball. Tryouts are a mess, and Greg is sure he won't make the cut. But he unexpectedly lands a spot on the worst team. As Greg and his new teammates start the season, their chances of winning even a single game look...<a href="" style="color: red; font-style: italic;">Read Full Summary</a></p><br>
+    <p><b>Hardcover:</b> $13.87</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+
+  <div id="b10" class="containerTab" style="display:none; background: lightgreen; height: 220px;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Cravings: All Together: Recipes to Love: A Cookbook</h2>
+    <p>by Chrissy Teigen and Adeena Sussman ⭐⭐⭐</p> <br>
+    <p style="font-size: 12px;">This description may be from another edition of this product. Chrissy Teigen has always found a big sense of fun in the kitchen, but more than ever, she turns to the stove for comfort and warmth. Now Chrissy shares the recipes that have sustained her and her family, the ones that made her feel like everything is going to be okay. Recipes for cozy-classic lentil soup, ingenious Chrissy signatures like PB&J-stuffed French Toast and puff pastry-wrapped...<a href="" style="color: red; font-style: italic;">Read Full Summary</a></p><br>
+    <p><b>Hardcover:</b> $26.07</p> <br>
+    <button class="button-30" role="button"><i class="fas fa-cart-arrow-down fa-1x"></i>&ensp;Add to Cart</button>
+  </div>
+  <br><br>
+
+  <!--THE ADVERT 2-->
+  <img src="/Images/Advert 2.png" alt="" srcset="" style="width: 100%;">
+  <br><br>
+
+  <!--OUR BOOK CLUB DEALS-->
+  <h2 style="text-align: left; font-family: 'Abel'; color: green; font-size: 34px;">The Orients Book Deals</h2><br>
+  <button class="button-33" role="button">See More</button>
+  <p style="text-align: center; font-family: 'Arial'; font-weight: lighter;">Click on a Book to see it's info. The info will be displayed below the books.</p>
+  <div class="row">
+    <div class="column-books" onclick="openTab('b11');">
+      <img src="https://m.media-amazon.com/images/I/41lszRw+RWL._SL350_.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b12');">
+      <img src="https://m.media-amazon.com/images/I/51lNDh-2N2L._SL350_.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b13');">
+      <img src="https://img.thriftbooks.com/api/images/m/6ad9229ca5eed94aa53c1fa5033e6349d9b37c92.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b14');">
+      <img src="https://img.thriftbooks.com/api/images/m/6f86be3b7754e51277536ee596eaed20b1ecf013.jpg" alt="" srcset="" style="width: 100%; height: 105%;">
+    </div>
+    <div class="column-books" onclick="openTab('b15');">
+      <img src="https://m.media-amazon.com/images/I/51uFLED5P6L._SL350_.jpg" alt="" srcset="">
+    </div>
+  </div>
+  
+  <div id="b11" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>New Moon (The Twilight Saga)</h2>
+    <p>(Book #2 in the The Twilight Saga Series) by Stephenie Meyer ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.19 - $20.45&ensp;<b>Paperback:</b> $4.69 - $15.46</p> 
+  </div>
+  
+  <div id="b12" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Pride and Prejudice</h2>
+    <p>(Part of the Colección Novelas Eternas RBA (#1) Series and Colección Novelas Eternas RBA (#1) Series) by Jane Austen ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.69 - $10.82&ensp;<b>Paperback:</b> $4.49 - $18.19</p> 
+  </div>
+  
+  <div id="b13" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>What to Expect When You're Expecting</h2>
+    <p>(Part of the What to Expect Series) by Heidi Murkoff, Arlene Eisenberg, Sandee Hathaway, et al. ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.19 - $25.41&ensp;<b>Paperback:</b> $3.86 - $14.62</p> 
+  </div>
+
+  <div id="b14" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Little Blue Truck</h2>
+    <p>(Part of the Little Blue Truck Series) by Alice Schertle ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $4.19 - $23.24</p> 
+  </div>
+
+  <div id="b15" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>The Wedding</h2>
+    <p>(Book #2 in the The Notebook Series) by Nicholas Sparks ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $3.99 - $27.25&ensp;<b>Paperback:</b> $4.19 - $4.69</p> 
+  </div>
+  <br>
+
+  <!--JUST ARRIVED-->
+  <h2 style="text-align: left; font-family: 'Abel'; color: green; font-size: 34px;">Just Arrived</h2><br>
+  <button class="button-33" role="button">See More</button>
+  <p style="text-align: center; font-family: 'Arial'; font-weight: lighter;">Click on a Book to see it's info. The info will be displayed below the books.</p>
+  <div class="row">
+    <div class="column-books" onclick="openTab('b16');">
+      <img src="https://img.thriftbooks.com/api/images/m/be43fb6cd2224652ed2ab4a282f49d036bf235f7.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b17');">
+      <img src="https://m.media-amazon.com/images/I/517wNtmMEZL._SL350_.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b18');">
+      <img src="https://img.thriftbooks.com/api/images/i/m/EA17DCBEC529DF5C93AB4A269FB93AB456565100.jpg" alt="" srcset="">
+    </div>
+    <div class="column-books" onclick="openTab('b19');">
+      <img src="https://m.media-amazon.com/images/I/51HjtFnH4CL._SL350_.jpg" alt="" srcset="" style="width: 100%; height: 105%;">
+    </div>
+    <div class="column-books" onclick="openTab('b20');">
+      <img src="https://img.thriftbooks.com/api/images/m/46e1aaca4dcc550dd582ea6a002c1834f5f60e90.jpg" alt="" srcset="">
+    </div>
+  </div>
+  
+  <div id="b16" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Harry Potter a` l'e´cole des sorciers (French Edition)</h2>
+    <p>(Book #1 in the Harry Potter Series) by J.K. Rowling ⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $14.79 - $92.99&ensp;<b>Paperback:</b> $3.99 - $12.13/p> 
+  </div>
+  
+  <div id="b17" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>Mere Christianity</h2>
+    <p>by C.S. Lewis ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $6.09 - $16.59&ensp;<b>Paperback:</b> $4.59 - $15.46</p> 
+  </div>
+  
+  <div id="b18" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>I Know Why the Caged Bird Sings</h2>
+    <p>(Book #1 in the Maya Angelou's Autobiography Series) by Maya Angelou ⭐⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $5.89 - $21.06&ensp;<b>Paperback:</b> $4.79 - $16.15</p> 
+  </div>
+
+  <div id="b19" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>The Polar Express</h2>
+    <p>by Chris Van Allsburg ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $3.99 - $17.94</p> 
+  </div>
+
+  <div id="b20" class="containerTab" style="display:none; background: lightgreen;">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2>War and Peace</h2>
+    <p>((Part of the Война и мир 4 volumes Series) by Leo Tolstoy, L.N. Tolstoy, Leo Wiener, et al. ⭐⭐⭐⭐</p> <br>
+    <p><b>Hardcover:</b> $6.69 - $18.14&ensp;<b>Paperback:</b> $3.99 - $11.09</p> 
+  </div>
+  <br><br>
+
+  <!--THE ADVERT 3-->
+  <img src="/Images/Advert 4.png" alt="" srcset="" style="width: 100%;">
+  <br><br>
+
+  <!---BROWSE BY CATEGORY-->
+  <h2 style="text-align: left; font-family: 'Abel'; color: gray; font-size: 40px; font-weight: bolder;">Shop By Category</h2><br>
+  <div class="row">
+    <div class="column" style="display: flex; box-shadow: none;">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51tmQlN70LL._SL500_.jpg" alt="" srcset="" style="width: 200px; height: 200x;">&emsp;
+      <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: right; margin-right: 80px;">
+        BIOGRAPHIES & MEMOIRS <br><br>
+        <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+          <a href="">Historical Biographies</a>
+          <a href="">Leaders & Notable People Biographies</a>
+          <a href="">Modern Biographies</a>
+          <a href="">Sports Biographies</a>
+        </ul>
+      </h2>
+    </div>
+    <div class="column" style="display: flex; box-shadow: none;">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51%2B017ozwZL._SL500_.jpg" alt="" srcset="" style="width: 200px; height: 210px;">&emsp;
+      <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: left; margin-right: 14px;">
+        &ensp;CHILDREN'S BOOKS <br><br>
+        <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+          <a href="">Action & Adventure Books for Children</a>
+          <a href="">Children's Animal Books</a>
+          <a href="">Children's Humor Books</a>
+          <a href="">Children's Sci-Fi & Fantasy Books</a>
+          <a href="">Classic Children's Books</a>
+        </ul>
+      </h2>
+    </div>
+    <div class="column" style="display: flex; box-shadow: none;">
+      <img src="https://img.thriftbooks.com/api/images/l/de2fe496bbdc06bbb3b5462cb81b2807885b4aaa.jpg" alt="" srcset="" style="width: 200px; height: 210px;">&emsp;
+      <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: left; margin-right: 14px;">
+        &ensp;LITERATURE & FICTION <br><br>
+        <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+          <a href="">Classic Books</a>
+          <a href="">Contemporary Literature Books</a>
+          <a href="">Foreign Language Fiction Books</a>
+          <a href="">Genre Fiction Books</a>
+          <a href="">History & Criticism Books</a>
+        </ul>
+      </h2>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="column" style="display: flex; box-shadow: none;">
+      <img src="https://img.thriftbooks.com/api/images/l/5671b190481f1695fcb61a60f1bdd064706f83ad.jpg" alt="" srcset="" style="width: 200px; height: 210px;">&emsp;
+      <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: right; margin-right: 14px;">
+        &ensp;MYSTERY, THRILLER & SUSPENCE <br><br>
+        <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+          <a href="">Crime Books</a>
+          <a href="">Detective Books</a>
+          <a href="">Mystery Books</a>
+          <a href="">Suspence Books</a>
+          <a href="">Thrillers</a>
+        </ul>
+      </h2>
+    </div>
+    <div class="column" style="display: flex; box-shadow: none;">
+      <img src="https://img.thriftbooks.com/api/images/l/cc32f38ef813db061dc122562f359e831e0b380d.jpg" alt="" srcset="" style="width: 200px; height: 210px;">&emsp;
+      <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: left; margin-right: 14px;">
+        &ensp;RELIGION & SPIRITUALITY <br><br>
+        <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+          <a href="">Astrology Books</a>
+          <a href="">Christian Books & Bibles</a>
+          <a href="">History of Religion Books</a>
+          <a href="">Inspirational Books</a>
+          <a href="">New Age Books</a>
+        </ul>
+      </h2>
+    </div>
+    <div class="column" style="display: flex; box-shadow: none;">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51up%2BzegGBL._SL500_.jpg" alt="" srcset="" style="width: 200px; height: 210px;">&emsp;
+      <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: left; margin-right: 14px;">
+        &ensp;ROMANCE <br><br>
+        <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+          <a href="">Contemporary Romance Books</a>
+          <a href="">Roamntic Fantasy Books</a>
+          <a href="">Romantic Historical Books</a>
+          <a href="">Romantic Mystery Books</a>
+          <a href="">Roantic Sci-Fi Books</a>
+        </ul>
+      </h2>
+    </div>
+    <br>
+    <div class="row">
+      <div class="column" style="display: flex; box-shadow: none;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/5165GG7QHDL._SL500_.jpg" alt="" srcset="" style="width: 200px; height: 210px;">&emsp;
+        <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: right; margin-right: 14px;">
+          &ensp;SCIENCE FICTION & FANTASY <br><br>
+          <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+            <a href="">Action & Adventure Books</a>
+            <a href="">Coming of Age Sci-Fi Books</a>
+            <a href="">Hystorical Sci-Fi Books</a>
+            <a href="">Sci-Fi Horror Books</a>
+            <a href="">Sci-Fi Humor Books</a>
+          </ul>
+        </h2>
+      </div>
+      <div class="column" style="display: flex; box-shadow: none;">
+        <img src="https://img.thriftbooks.com/api/images/l/1b988ef6183cb8d4d7592171f03a419c62ee0bfb.jpg" alt="" srcset="" style="width: 200px; height: 210px;">&emsp;
+        <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: left; margin-right: 14px;">
+          &ensp;HISTORY <br><br>
+          <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+            <a href="">Military History Books</a>
+            <a href="">Modern History Books</a>
+            <a href="">Religious History Books</a>
+            <a href="">World History Books</a>
+          </ul>
+        </h2>
+      </div>
+      <div class="column" style="display: flex; box-shadow: none;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51oqzBYbuqL._SL500_.jpg" alt="" srcset="" style="width: 200px; height: 210px;">&emsp;
+        <h2 style="font-family: 'Verdana'; font-weight: bold; font-size: 12px; text-align: left; margin-right: 14px;">
+          &ensp;TEEN & YOUNG ADULT <br><br>
+          <ul class="Shop-By-Category a" style="font-family: 'Verdana'; font-size: 6px;">
+            <a href="">Teen Fantasy Books</a>
+            <a href="">Teen Hobbies Books</a>
+            <a href="">Teen Horror Books</a>
+            <a href="">Teen Romance Books</a>
+            <a href="">Teen Sci-Fi Books</a>
+          </ul>
+        </h2>
+      </div>
+  </div>
+  <br>
+
+   <!--THE ADVERT 4-->
+   <img src="/Images/Advert 3.png" alt="" srcset="" style="width: 100%;">
+   <br><br>
+
+   <!--THE FOOTER-->
+   <img src="/Images/Footer.png" alt="" srcset="" style="width: 100%;">
+
+</body>
+
+<script>
+  function openTab(tabName) {
+    var i, x;
+    x = document.getElementsByClassName("containerTab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+  }
+</script>
+</html>
