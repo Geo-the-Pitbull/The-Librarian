@@ -14,9 +14,26 @@ var app = express();
 var conn = require('./lib/db');
 
 //---ROUTES---//
+var indexRoute = require('./routes/index');
 
 //---VIEWS---//
+//Setup View Engine
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs');
+//--------------------------------------------
 
 //---MIDDLEWARES---//
+//Setup Session
+app.use(cookieParser());
+app.use(session({
+    secret: '@cc@3147',
+    saveUninitialized: true,
+    resave: false,
+    cookie: {maxAge: 120000}
+}));
+app.use(flash());
+//Routing Middlewares
+app.use('/' , indexRoute);
+//----------------------------------------------
 
-app.listen(port, () => console.log('Listening on port ${port} 4200'));
+app.listen(port, () => console.log('Listening on port ${port}...'));
